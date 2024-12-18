@@ -1,16 +1,4 @@
-# API Keys and Configurations
-OAI_CONFIG_LIST
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-ENV/
-
-# Unity
+# Unity generated
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -19,7 +7,15 @@ ENV/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
-# IDE
+# Never ignore Asset meta data
+!/[Aa]ssets/**/*.meta
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Visual Studio / VS Code
 .vs/
 .vscode/
 *.csproj
@@ -31,9 +27,46 @@ ENV/
 *.userprefs
 *.pidb
 *.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
 
-# OS generated
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# API Keys and Configurations
+OAI_CONFIG_LIST
+
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
 Thumbs.db
