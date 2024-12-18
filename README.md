@@ -2,6 +2,8 @@
 
 A Unity-based AI agent society simulation using AG2 (AutoGen) for agent behaviors and decision making.
 
+reference : https://github.com/ag2ai/ag2/blob/main/README.md
+
 ## Current Implementation Status
 - **Primary Framework**: Using AG2 (AutoGen) for all agent behaviors and decision making
 - **Genagents**: Currently maintained as reference material only. Not actively used in current implementation. README will be updated if/when Genagents features are integrated.
